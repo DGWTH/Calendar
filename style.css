@@ -1,4 +1,4 @@
-  * {
+    * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -136,7 +136,7 @@
         }
 
         .day.today {
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            background: linear-gradient(45deg, #e4ff6b, #e7ee24);
             color: white;
             font-weight: bold;
             box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
@@ -212,7 +212,7 @@
         .legend-holiday { background: linear-gradient(45deg, #fd79a8, #e84393); }
         .legend-weekend { background: linear-gradient(45deg, #a29bfe, #6c5ce7); }
         .legend-special { background: linear-gradient(45deg, #fdcb6e, #e17055); }
-        .legend-today { background: linear-gradient(45deg, #ff6b6b, #ee5a24); }
+        .legend-today { background: linear-gradient(45deg, #fff56b, hsl(58, 86%, 54%)); }
 
         @media (max-width: 600px) {
             .calendar-container {
